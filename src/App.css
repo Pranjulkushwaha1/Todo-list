@@ -1,0 +1,93 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ */
+ /* body{
+  background-image: url()
+ } */
+ .App{
+  text-align: center;
+ }
+.App-logo{
+  height:40vmin;
+  pointer-events:none;
+}
+.container{
+  height: 600px;
+  max-width: 500px;
+  font-size: 16px;
+  margin:  0 auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(19, 9, 9, 0.86) 0px 6px 6px;
+  border: 2px solid;
+}
+button{
+  cursor: pointer;
+  padding: 7px;
+}
+input{
+  padding: 7px;
+  width: 20rem;
+}
+.list{
+  text-align: left;
+}
+.list ul{
+  padding-left: 0;
+}
+.list ul li {
+  background-color: rgb(0, 0, 1, 0.6);
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+/* ul li{
+  justify-content: space-between;
+  display: flex;
+} */
+.dir{
+  display: flex;
+  gap: 30px;
+  margin-right: 10px;
+}
